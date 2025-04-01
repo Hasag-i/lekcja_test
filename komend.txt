@@ -8,3 +8,6 @@ cat /C/Users/Uczeń/Desktop/git/id_rsa.txt.pub
 
 ssh -T git@github.com
 git config --global user.name/email
+
+git checkout -b develop
+git push --set-upstream origin develop
